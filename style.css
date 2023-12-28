@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+   
+
+}
+
+body{
+  
+    background: #F2F3F4;
+}
+
+/* Title: Creative Login and Registration form In HTML, CSS & PHP - Simple PHP System
+    Author: Ludiflex
+    Source: https://www.youtube.com/watch?v=1zXqo2WcOew&t=562s
+    I used this video create the  layout and the design of  registration and signin forms*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+
+.box{
+    background: #94b8b8;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+}
+
+.login-box{
+    width: 450px;
+    margin: 0px 10px;
+
+}
+
+.login-box header{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-self: center; 
+  
+}
+
+.login-box h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    border-bottom: 1px solid black;
+     
+  
+}
+
+.login-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    
+}
+
+.login-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+
+.login-box form .field label {
+    font-size: 20px;
+    font-weight: 500;
+    color: black
+}
+
+.btn{
+    height: 35px;
+    background: black;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.submit{
+    width: 100%;
+
+}
+
+.sign-up-link{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+
+.nav ul{
+    list-style: none;
+    
+    text-align: right;
+    padding: 1px;
+    margin: 0;
+}
+
+.nav li{
+    display: inline-block;
+    border: 2px solid #000; 
+    border-radius: 50%; 
+   
+    margin: 70px 170px ; 
+    vertical-align: middle;
+
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px; 
+    font-size: 30px; 
+}
+
+
+.nav a:hover {
+    color: #94b8b8;
+ 
+  }
+  
+
+
+.container2{
+ 
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+
+}
+
+.box2{
+    background: #94b8b8;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 1px;
+    border-radius: 20px;
+    width: 70%; 
+    margin: 0 auto; 
+}
+
+.title header{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-self: center; 
+  
+}
+
+
+.title h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+   
+  
+}
+.title h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 50px;
+
+    padding-top: 20px;
+    margin: 0px; 
+}
+
+.logout-container {
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logout-button {
+    background-color: #94b8b8; 
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    width: 10%;
+    margin: 0 auto; 
+    font-weight: bold;
+    color: black
+}
+
+.container3 button{
+    background-color: #94b8b8;
+    margin-bottom: 20px;
+}
